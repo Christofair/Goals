@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1494803372 source:d:\projects in c-b\mygoals\aplication.cpp
+	<ctime>
+	<iostream>
+	"Aplication.hpp"
+
+1494798493 d:\projects in c-b\mygoals\aplication.hpp
+	"Day.hpp"
+	"Goal.hpp"
+
+1494788814 d:\projects in c-b\mygoals\day.hpp
+	<ctime>
+	<vector>
+	"Goal.hpp"
+
+1494793777 d:\projects in c-b\mygoals\goal.hpp
+	<string>
+	<fstream>
+
+1494802991 source:d:\projects in c-b\mygoals\day.cpp
+	<iostream>
+	<sstream>
+	<ctime>
+	<fstream>
+	<cstdlib>
+	"Aplication.hpp"
+
+1494796080 source:d:\projects in c-b\mygoals\goal.cpp
+	"Goal.hpp"
+	<fstream>
+	<ctime>
+	<iostream>
+
+1514221845 source:d:\projects in c-b\mygoals\bin\main.cpp
+	"../Aplication.hpp"
+	<iostream>
+	<vector>
+	<conio.h>
+	<cstdlib>
+
