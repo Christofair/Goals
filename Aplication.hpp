@@ -23,7 +23,7 @@ public:
     ~Aplikacja();
     static void usunInstancje();
     bool nieMozliwa();
-    void getDzien(Dzien*);
+    void viewDzien(Dzien*);
     void setDzien();
     Cel* setCel();
     void zapiszCel();
