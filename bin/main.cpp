@@ -17,7 +17,7 @@ int main(){
 while(!zamknij){
     cin.sync();
     system("cls");
-    app->getDzien(app->dzien);
+    app->viewDzien(app->dzien);
     app->dzien->cele.clear();
     stage = (app->dzien->odczytaj())? true : false;
     if(!stage) cout << "Nie znaleziono pliku :/" << endl;
