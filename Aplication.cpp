@@ -13,7 +13,7 @@ Aplikacja::Aplikacja() : cel(nullptr), dzien(nullptr), dzisiaj({0,0,0,0,0,0,0,0,
     dzisiaj = *teraz;
     this->setDzien();
 }
-void Aplikacja::getDzien(Dzien* d) {
+void Aplikacja::viewDzien(Dzien* d) {
     string dni_tygodnia[] = {"Niedziela", "Poniedzialek", "Wtorek", "Sroda", "Czwartek", "Piatek", "Sobota"};
     string nazwy_miesiecy[] = {"Styczen","Luty","Marzec",
         "Kwiecien","Maj","Czerwiec",
